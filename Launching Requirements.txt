@@ -1,0 +1,15 @@
+LAUNCHING REQUIREMENTS 
+
+1) MLFlow :- 
+mlflow ui --backend-store-uri sqlite:///mlflow.db
+
+2) Ollama :-
+ollama serve
+
+3) Backend :-
+cd backend
+uvicorn main:app --reload
+
+4) Frontend :-
+cd frontend
+start index.html

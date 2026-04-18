@@ -1,0 +1,45 @@
+# Virtual Environment
+venv/
+.env/
+
+# Large Dataset Files (too big for GitHub — download separately)
+backend/creditcard.csv
+backend/df_original.csv
+backend/X_test.csv
+backend/y_test.csv
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# MLflow artifacts & database (regenerated locally)
+mlflow.db
+mlartifacts/
+backend/mlflow.db
+backend/mlartifacts/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
